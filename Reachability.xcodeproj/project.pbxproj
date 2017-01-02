@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		00C54B141C09CD9C001C3F12 /* ReachabilityMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C54B131C09CD9C001C3F12 /* ReachabilityMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00C54B191C09CDF6001C3F12 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7344B01BE76862008AFE69 /* Reachability.swift */; };
+		00C54B191C09CDF6001C3F12 /* ReachabilitySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7344B01BE76862008AFE69 /* ReachabilitySwift.swift */; };
 		00C54B221C09CF68001C3F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C54B211C09CF68001C3F12 /* AppDelegate.swift */; };
 		00C54B241C09CF68001C3F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C54B231C09CF68001C3F12 /* ViewController.swift */; };
 		00C54B261C09CF68001C3F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C54B251C09CF68001C3F12 /* Assets.xcassets */; };
 		00C54B291C09CF68001C3F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C54B271C09CF68001C3F12 /* Main.storyboard */; };
-		00C54B2E1C09D1AA001C3F12 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C54B111C09CD9C001C3F12 /* Reachability.framework */; };
-		00C54B2F1C09D1AA001C3F12 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00C54B111C09CD9C001C3F12 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00C54B2E1C09D1AA001C3F12 /* ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C54B111C09CD9C001C3F12 /* ReachabilitySwift.framework */; };
+		00C54B2F1C09D1AA001C3F12 /* ReachabilitySwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00C54B111C09CD9C001C3F12 /* ReachabilitySwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57A45A041C197BE800384AE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A45A031C197BE800384AE4 /* AppDelegate.swift */; };
 		57A45A061C197BE800384AE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A45A051C197BE800384AE4 /* ViewController.swift */; };
 		57A45A091C197BE800384AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57A45A071C197BE800384AE4 /* Main.storyboard */; };
 		57A45A0B1C197BE800384AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A45A0A1C197BE800384AE4 /* Assets.xcassets */; };
 		57A45A2D1C197F4800384AE4 /* ReachabilityTV.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A45A2C1C197F4800384AE4 /* ReachabilityTV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57A45A311C197F4800384AE4 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A45A2A1C197F4800384AE4 /* Reachability.framework */; };
-		57A45A321C197F4800384AE4 /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57A45A2A1C197F4800384AE4 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		57A45A371C1985B300384AE4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7344B01BE76862008AFE69 /* Reachability.swift */; };
-		AA7344761BE7678B008AFE69 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7344751BE7678B008AFE69 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A45A311C197F4800384AE4 /* ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A45A2A1C197F4800384AE4 /* ReachabilitySwift.framework */; };
+		57A45A321C197F4800384AE4 /* ReachabilitySwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57A45A2A1C197F4800384AE4 /* ReachabilitySwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		57A45A371C1985B300384AE4 /* ReachabilitySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7344B01BE76862008AFE69 /* ReachabilitySwift.swift */; };
+		AA7344761BE7678B008AFE69 /* ReachabilitySwift.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7344751BE7678B008AFE69 /* ReachabilitySwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA7344931BE76820008AFE69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7344921BE76820008AFE69 /* AppDelegate.swift */; };
 		AA7344951BE76820008AFE69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7344941BE76820008AFE69 /* ViewController.swift */; };
 		AA7344981BE76820008AFE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7344961BE76820008AFE69 /* Main.storyboard */; };
 		AA73449A1BE76820008AFE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7344991BE76820008AFE69 /* Assets.xcassets */; };
-		AA7344B11BE76862008AFE69 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7344B01BE76862008AFE69 /* Reachability.swift */; };
+		AA7344B11BE76862008AFE69 /* ReachabilitySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7344B01BE76862008AFE69 /* ReachabilitySwift.swift */; };
 		AA7344B51BE769D6008AFE69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA7344B31BE769D6008AFE69 /* LaunchScreen.xib */; };
-		CAC230C51BF2180000F6464E /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; };
-		CAC230C61BF2180000F6464E /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAC230C51BF2180000F6464E /* ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilitySwift.framework */; };
+		CAC230C61BF2180000F6464E /* ReachabilitySwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA7344721BE7678B008AFE69 /* ReachabilitySwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				00C54B2F1C09D1AA001C3F12 /* Reachability.framework in Embed Frameworks */,
+				00C54B2F1C09D1AA001C3F12 /* ReachabilitySwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +76,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				57A45A321C197F4800384AE4 /* Reachability.framework in Embed Frameworks */,
+				57A45A321C197F4800384AE4 /* ReachabilitySwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,7 +87,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CAC230C61BF2180000F6464E /* Reachability.framework in Embed Frameworks */,
+				CAC230C61BF2180000F6464E /* ReachabilitySwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,7 +95,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00C54B111C09CD9C001C3F12 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C54B111C09CD9C001C3F12 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C54B131C09CD9C001C3F12 /* ReachabilityMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachabilityMac.h; sourceTree = "<group>"; };
 		00C54B151C09CD9C001C3F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00C54B1F1C09CF67001C3F12 /* ReachabilityMacSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachabilityMacSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,11 +110,11 @@
 		57A45A081C197BE800384AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57A45A0A1C197BE800384AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57A45A0C1C197BE800384AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57A45A2A1C197F4800384AE4 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A45A2A1C197F4800384AE4 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A45A2C1C197F4800384AE4 /* ReachabilityTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachabilityTV.h; sourceTree = "<group>"; };
 		57A45A2E1C197F4800384AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA7344721BE7678B008AFE69 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7344751BE7678B008AFE69 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AA7344721BE7678B008AFE69 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7344751BE7678B008AFE69 /* ReachabilitySwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachabilitySwift.h; sourceTree = "<group>"; };
 		AA7344771BE7678B008AFE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA7344901BE76820008AFE69 /* ReachabilitySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachabilitySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7344921BE76820008AFE69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		AA7344971BE76820008AFE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA7344991BE76820008AFE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA73449E1BE76820008AFE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA7344B01BE76862008AFE69 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AA7344B01BE76862008AFE69 /* ReachabilitySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilitySwift.swift; sourceTree = "<group>"; };
 		AA7344B41BE769D6008AFE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C54B2E1C09D1AA001C3F12 /* Reachability.framework in Frameworks */,
+				00C54B2E1C09D1AA001C3F12 /* ReachabilitySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A45A311C197F4800384AE4 /* Reachability.framework in Frameworks */,
+				57A45A311C197F4800384AE4 /* ReachabilitySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC230C51BF2180000F6464E /* Reachability.framework in Frameworks */,
+				CAC230C51BF2180000F6464E /* ReachabilitySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,12 +233,12 @@
 		AA7344731BE7678B008AFE69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA7344721BE7678B008AFE69 /* Reachability.framework */,
+				AA7344721BE7678B008AFE69 /* ReachabilitySwift.framework */,
 				AA7344901BE76820008AFE69 /* ReachabilitySample.app */,
-				00C54B111C09CD9C001C3F12 /* Reachability.framework */,
+				00C54B111C09CD9C001C3F12 /* ReachabilitySwift.framework */,
 				00C54B1F1C09CF67001C3F12 /* ReachabilityMacSample.app */,
 				57A45A011C197BE800384AE4 /* ReachabilityAppleTVSample.app */,
-				57A45A2A1C197F4800384AE4 /* Reachability.framework */,
+				57A45A2A1C197F4800384AE4 /* ReachabilitySwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,8 +246,8 @@
 		AA7344741BE7678B008AFE69 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				AA7344B01BE76862008AFE69 /* Reachability.swift */,
-				AA7344751BE7678B008AFE69 /* Reachability.h */,
+				AA7344B01BE76862008AFE69 /* ReachabilitySwift.swift */,
+				AA7344751BE7678B008AFE69 /* ReachabilitySwift.h */,
 				AA7344771BE7678B008AFE69 /* Info.plist */,
 			);
 			path = Reachability;
@@ -289,7 +289,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7344761BE7678B008AFE69 /* Reachability.h in Headers */,
+				AA7344761BE7678B008AFE69 /* ReachabilitySwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +311,7 @@
 			);
 			name = ReachabilityMac;
 			productName = ReachabilityMac;
-			productReference = 00C54B111C09CD9C001C3F12 /* Reachability.framework */;
+			productReference = 00C54B111C09CD9C001C3F12 /* ReachabilitySwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		00C54B1E1C09CF67001C3F12 /* ReachabilityMacSample */ = {
@@ -367,7 +367,7 @@
 			);
 			name = ReachabilityTV;
 			productName = ReachabilityTV;
-			productReference = 57A45A2A1C197F4800384AE4 /* Reachability.framework */;
+			productReference = 57A45A2A1C197F4800384AE4 /* ReachabilitySwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AA7344711BE7678B008AFE69 /* Reachability */ = {
@@ -385,7 +385,7 @@
 			);
 			name = Reachability;
 			productName = Reachability;
-			productReference = AA7344721BE7678B008AFE69 /* Reachability.framework */;
+			productReference = AA7344721BE7678B008AFE69 /* ReachabilitySwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AA73448F1BE76820008AFE69 /* ReachabilitySample */ = {
@@ -414,7 +414,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Ashley Mills";
 				TargetAttributes = {
 					00C54B101C09CD9C001C3F12 = {
@@ -526,7 +526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C54B191C09CDF6001C3F12 /* Reachability.swift in Sources */,
+				00C54B191C09CDF6001C3F12 /* ReachabilitySwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A45A371C1985B300384AE4 /* Reachability.swift in Sources */,
+				57A45A371C1985B300384AE4 /* ReachabilitySwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7344B11BE76862008AFE69 /* Reachability.swift in Sources */,
+				AA7344B11BE76862008AFE69 /* ReachabilitySwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,7 +647,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.joylordsystems.Reachability;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = Reachability;
+				PRODUCT_NAME = ReachabilitySwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -671,7 +671,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.joylordsystems.Reachability;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = Reachability;
+				PRODUCT_NAME = ReachabilitySwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -752,7 +752,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -762,7 +762,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.reachability.ReachabilityTV;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_NAME = ReachabilitySwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -774,7 +774,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -784,7 +784,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.reachability.ReachabilityTV;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_NAME = ReachabilitySwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -893,7 +893,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -904,7 +904,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.joylordsystems.Reachability;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReachabilitySwift;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -917,7 +917,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -928,7 +928,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.joylordsystems.Reachability;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReachabilitySwift;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;

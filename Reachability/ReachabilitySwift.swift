@@ -28,30 +28,30 @@ POSSIBILITY OF SUCH DAMAGE.
 import SystemConfiguration
 import Foundation
 
-public enum ReachabilityError: Error {
+public enum ReachabilitySwiftError: Error {
     case FailedToCreateWithAddress(sockaddr_in)
     case FailedToCreateWithHostname(String)
     case UnableToSetCallback
     case UnableToSetDispatchQueue
 }
 
-public let ReachabilityChangedNotification = NSNotification.Name("ReachabilityChangedNotification")
+public let ReachabilitySwiftChangedNotification = NSNotification.Name("ReachabilitySwiftChangedNotification")
 
 func callback(reachability:SCNetworkReachability, flags: SCNetworkReachabilityFlags, info: UnsafeMutableRawPointer?) {
 
     guard let info = info else { return }
     
-    let reachability = Unmanaged<Reachability>.fromOpaque(info).takeUnretainedValue()
+    let reachability = Unmanaged<ReachabilitySwift>.fromOpaque(info).takeUnretainedValue()
 
     DispatchQueue.main.async { 
         reachability.reachabilityChanged()
     }
 }
 
-public class Reachability {
+public class ReachabilitySwift {
 
-    public typealias NetworkReachable = (Reachability) -> ()
-    public typealias NetworkUnreachable = (Reachability) -> ()
+    public typealias NetworkReachable = (ReachabilitySwift) -> ()
+    public typealias NetworkUnreachable = (ReachabilitySwift) -> ()
 
     public enum NetworkStatus: CustomStringConvertible {
 
@@ -139,7 +139,7 @@ public class Reachability {
     }
 }
 
-public extension Reachability {
+public extension ReachabilitySwift {
     
     // MARK: - *** Notifier methods ***
     func startNotifier() throws {
@@ -147,15 +147,15 @@ public extension Reachability {
         guard let reachabilityRef = reachabilityRef, !notifierRunning else { return }
         
         var context = SCNetworkReachabilityContext(version: 0, info: nil, retain: nil, release: nil, copyDescription: nil)
-        context.info = UnsafeMutableRawPointer(Unmanaged<Reachability>.passUnretained(self).toOpaque())        
+        context.info = UnsafeMutableRawPointer(Unmanaged<ReachabilitySwift>.passUnretained(self).toOpaque())        
         if !SCNetworkReachabilitySetCallback(reachabilityRef, callback, &context) {
             stopNotifier()
-            throw ReachabilityError.UnableToSetCallback
+            throw ReachabilitySwiftError.UnableToSetCallback
         }
         
         if !SCNetworkReachabilitySetDispatchQueue(reachabilityRef, reachabilitySerialQueue) {
             stopNotifier()
-            throw ReachabilityError.UnableToSetDispatchQueue
+            throw ReachabilitySwiftError.UnableToSetDispatchQueue
         }
         
         // Perform an intial check
@@ -226,7 +226,7 @@ public extension Reachability {
     }
 }
 
-fileprivate extension Reachability {
+fileprivate extension ReachabilitySwift {
     
     func reachabilityChanged() {
         
@@ -237,7 +237,7 @@ fileprivate extension Reachability {
         let block = isReachable ? whenReachable : whenUnreachable
         block?(self)
         
-        self.notificationCenter.post(name: ReachabilityChangedNotification, object:self)
+        self.notificationCenter.post(name: ReachabilitySwiftChangedNotification, object:self)
         
         previousFlags = flags
     }
